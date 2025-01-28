@@ -9,3 +9,17 @@
  * sinon false.
   * En dessous de la classe, créer un objet et appeler les méthodes
  */
+
+ 
+class Movie {
+
+  public function __construct(private string $title,  
+  private string $genre,  
+  private int $ageRestriction)
+  {
+  }
+
+
+}
+
+
